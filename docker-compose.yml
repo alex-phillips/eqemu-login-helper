@@ -1,0 +1,9 @@
+version: '2'
+services:
+  eqemu-login-helper:
+    build: .
+    ports:
+      - 5998:5998
+      - 5998:5998/udp
+      - 5998:5998
+      - 5999:5999/udp
