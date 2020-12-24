@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.12
 
 LABEL maintainer="hackerman <ahp118@gmail.com>"
 
